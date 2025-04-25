@@ -14,9 +14,9 @@ const Header = () => {
           <p>Simply browse through our extesive list of trusted doctors, <br className='hidden sm:block' /> schedul your appointment hassle-free.</p>
         </div>
         <div className='items-start'>
-        <a className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-sm m-auto' href="">
-          Book appointment <img src={assets.arrow_icon} alt="" />
-        </a>
+          <a href="#speciality" className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-sm m-auto hover:scale-105 transition-all duration-300'>
+            Book appointment <img className='w-3' src={assets.arrow_icon} alt="" />
+          </a>
         </div>
       </div>
       {/* ----------Right side -------------- */}
