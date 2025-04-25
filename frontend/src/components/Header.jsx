@@ -13,9 +13,11 @@ const Header = () => {
           <img className='w-28' src={assets.group_profiles} alt="" />
           <p>Simply browse through our extesive list of trusted doctors, <br className='hidden sm:block' /> schedul your appointment hassle-free.</p>
         </div>
-        <a href="">
+        <div className='items-start'>
+        <a className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-sm m-auto' href="">
           Book appointment <img src={assets.arrow_icon} alt="" />
         </a>
+        </div>
       </div>
       {/* ----------Right side -------------- */}
       <div className='md:w-1/2 relative'>
