@@ -7,7 +7,7 @@ const Header = () => {
       {/* ----------Left side -------------- */}
       <div className='md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]'>
         {/*       */}
-        <p>
+        <p className='text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight'>
           Book Appointment <br /> With Trusted Doctors
         </p>
         <div>
@@ -19,8 +19,8 @@ const Header = () => {
         </a>
       </div>
       {/* ----------Right side -------------- */}
-      <div>
-        <img src={assets.header_img_1} alt="" />
+      <div className='md:w-1/2 relative'>
+        <img  src={assets.header_img_1} alt="" />
       </div>
     </div>
   )
